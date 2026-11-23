@@ -1,6 +1,6 @@
-# Booking API ETL Pipeline
+# Fidelo ETL Reporting
 
-Jupyter notebooks that pull bookings from a school-management REST API, flatten the nested JSON and load it into SQL Server for reporting.
+Jupyter notebooks that pull bookings from the Fidelo school-management REST API, flatten the nested JSON and load it into SQL Server for reporting.
 
 ## Flow
 1. `01_extract_booking_list/` pages through the bookings endpoint, saves raw JSON per page and combines the pages.
